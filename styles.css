@@ -1,0 +1,68 @@
+::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+  --bg-main: #F8F9FA;      /* Fondo general */
+  --bg-card: #FFFFFF;      /* Fondo del CV */
+  --text-main: #212529;    /* Texto general */
+  --text-muted: #6C757D;   /* Texto secundario / fechas */
+  --primary: #1D3557;      /* Títulos principales */
+  --accent: #457B9D;       /* Subtítulos y acentos */
+  --border-color: #E9ECEF; /* Líneas divisorias */
+}
+#menu{
+    padding: 10px;
+  
+}
+#menu li{
+    display: inline;
+}
+
+#menu li a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+    background-color: #9d6d45;
+    color: #E9ECEF;
+}
+#menu li a:hover{
+    background-color: #080808;
+    color: white;
+    margin-top: -5px;
+    padding-bottom: 10px;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--accent);
+}
+header,section{
+    width: 968px;
+    margin: 0 auto;
+}
+img{
+    height: 150px;
+    width: 100px;
+    margin-right: 16px;
+}
+header{
+    display: flex;
+
+}
+section{
+    display: flex;
+
+}
+article{
+    width: 60%;
+}
+ul{
+    list-style: upper-latin;
+}
+
+
+ 
+ 
+ 
